@@ -30,18 +30,3 @@ loader.show(in: self.view)
 DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
     loader.hide()
 }
-
-
-# Customization
-
-## Change Dot Color
-`dot1.layer?.backgroundColor = NSColor.systemBlue.cgColor`
-
-## Change Blur Effect
-`blurEffect.material = .light`
-
-License
-
-This project is licensed under the MIT License.
-
-Feel free to contribute or suggest any improvements!
